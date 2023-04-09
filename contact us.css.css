@@ -1,0 +1,77 @@
+.contact-box
+{
+width:50vh;
+background:linear-gradient(to top, rgba(0,0,0,0.5)30%,rgba(0,0,0,0.5)30%);
+box-shadow:0,0,20px 0 #999;
+top:108%;
+left:55%;
+transform:translate(-50%,-50%);
+position:absolute;
+border-radius:20px;
+overflow-x:hidden;
+display:flex;
+flex-direction:column;
+margin:0%;
+height:75vh;
+bottom-border-radius:20px;
+border:1px solid #777;
+}
+@media(min-width:412px){
+.content-box{
+flex-direction:column;
+width:100vh;
+}
+}
+form
+{
+margin:35px;
+}
+.input-field
+{
+width:300px;
+height:40px;
+margin-top:20px;
+padding-left:10px;
+border:1px solid #777;
+border-radius:14px;
+outline:none;
+
+}
+.textarea-field
+{
+height: 150px;
+padding-top: 10px;
+width:250px
+}
+button
+{
+border-radius:20px;
+color:#fff;
+margin-top:18px;
+padding:10px;
+background-color:#47c35a;
+font-size:12px;
+border:none;
+cursor:pointer;
+padding-bottom:10px;
+}
+button:hover{
+color:#d40219;
+}
+.icon a{
+text-decoration:none;
+color:#ff7200;
+}
+.icon ion-icon{
+color:#ff7200;
+font-size:30px;
+padding-left:14px;
+padding-top:5px;
+trasition:0.3s ease;
+}
+.icons ion-icon:hover{
+color:#fff;
+}
+
+
+
